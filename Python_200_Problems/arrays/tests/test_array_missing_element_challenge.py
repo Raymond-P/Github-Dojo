@@ -1,3 +1,5 @@
+import sys
+sys.path.append('../')
 import unittest
 from random import randrange as rand
 from random import shuffle

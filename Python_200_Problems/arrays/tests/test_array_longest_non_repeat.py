@@ -12,7 +12,8 @@
 # Given "bbbbb", the answer is "b", with the length of 1.
 # Given "pwwkew", the answer is "wke", with the length of 3.
 # ---------------------------------------------------------------
-
+import sys
+sys.path.append('../')
 import unittest
 import arrays.array_longest_non_repeat as lnr
 

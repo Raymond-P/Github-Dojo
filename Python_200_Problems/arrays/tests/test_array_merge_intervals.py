@@ -1,3 +1,5 @@
+import sys
+sys.path.append('../')
 import unittest
 from arrays import array_merge_intervals as m
 
@@ -16,5 +18,4 @@ class TestMergeIntervals(unittest.TestCase):
 
 
 if __name__ == '__main__':
-    unittest.main
-
+    unittest.main()

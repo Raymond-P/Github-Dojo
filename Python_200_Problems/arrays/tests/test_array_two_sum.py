@@ -1,3 +1,5 @@
+import sys
+sys.path.append('../')
 import unittest
 import arrays.array_two_sum as ts
 

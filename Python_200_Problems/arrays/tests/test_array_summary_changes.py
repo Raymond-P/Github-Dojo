@@ -1,3 +1,5 @@
+import sys
+sys.path.append('../')
 import unittest
 from arrays.array_summary_changes import summary
 
@@ -26,4 +28,4 @@ class TestArraySummary(unittest.TestCase):
 
 
 if __name__ == '__main__':
-    unittest.main
+    unittest.main()
