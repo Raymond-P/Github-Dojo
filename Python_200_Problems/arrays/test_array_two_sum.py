@@ -1,7 +1,5 @@
-import sys
-sys.path.append('../')
 import unittest
-import arrays.array_two_sum as ts
+import array_two_sum as ts
 
 
 class TestArrayTwoSum(unittest.TestCase):

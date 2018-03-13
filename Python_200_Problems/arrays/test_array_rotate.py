@@ -1,7 +1,5 @@
-import sys
-sys.path.append('../')
 import unittest
-import arrays.array_rotate as rotate
+import array_rotate as rotate
 
 
 class TestRotate(unittest.TestCase):

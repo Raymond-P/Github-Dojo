@@ -1,7 +1,5 @@
-import sys
-sys.path.append('../')
 import unittest
-from arrays.array_summary_changes import summary
+from array_summary_changes import summary
 
 
 class TestArraySummary(unittest.TestCase):

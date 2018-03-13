@@ -19,7 +19,7 @@
 # os.chdir("..")
 # print(os.getcwd())
 import unittest
-from .. import array_longest_non_repeat as lnr
+import array_longest_non_repeat as lnr
 
 
 class TestLongestNonRepeat(unittest.TestCase):

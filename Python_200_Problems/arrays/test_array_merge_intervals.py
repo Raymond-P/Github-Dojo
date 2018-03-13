@@ -1,10 +1,10 @@
-import sys
-sys.path.append('../')
+# import sys
+# sys.path.append('../')
 import unittest
 import array_merge_intervals as m
 
 
-class TestMergeIntervals(unittest.TestCase):
+class testMergeIntervals(unittest.TestCase):
 
     def test_merge_intervals(self):
         lst = [[1, 3], [2, 6], [5, 10], [11, 16], [15, 18], [19, 22]]
