@@ -1,0 +1,27 @@
+Wed Mar 14 20:41:19 2018    edge_detection.profile
+
+         481 function calls in 0.000 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+       35    0.000    0.000    0.000    0.000 edge_detection.py:155(<listcomp>)
+       35    0.000    0.000    0.000    0.000 edge_detection.py:113(get_adjacent_pixels)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.exec}
+       35    0.000    0.000    0.000    0.000 edge_detection.py:151(get_output_pixel)
+        1    0.000    0.000    0.000    0.000 edge_detection.py:95(gen_input_image)
+       35    0.000    0.000    0.000    0.000 {built-in method builtins.max}
+        1    0.000    0.000    0.000    0.000 edge_detection.py:163(gen_rle_output)
+        1    0.000    0.000    0.000    0.000 edge_detection.py:160(<listcomp>)
+      212    0.000    0.000    0.000    0.000 {built-in method builtins.abs}
+        1    0.000    0.000    0.000    0.000 edge_detection.py:96(<listcomp>)
+       65    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+       53    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 edge_detection.py:88(edge_detection)
+        1    0.000    0.000    0.000    0.000 {method 'split' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 edge_detection.py:159(get_output_image)
+        1    0.000    0.000    0.000    0.000 {method 'join' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 <string>:1(<module>)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
